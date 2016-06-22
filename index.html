@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <link rel="stylesheet" type="text/css" href="https://www.apple.com/wss/fonts/?family=Myriad+Set+Pro&amp;v=1">
     
 <style>
 body{
@@ -16,14 +14,29 @@ div {
     box-shadow: 0px 0.5px 2px 0.5px #cfcfcf;
     border-radius: 2px;
     margin: 10px auto;
-    overflow: scroll;
 }
+    
+div {
+    max-width: 600px;
+    min-height: 100px;
+    max-height: 300px;
+    background-color: white;
+    box-shadow: 0px 0.5px 2px 0.5px #cfcfcf;
+    border-radius: 2px;
+    margin: 10px auto;
+}
+    
+    
+div.wrapper {
+    overflow: scroll;
+}    
     
 #header {
     color: white;
     padding: 10px 15px 3px 15px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    box-shadow: 0px 4px 2px -0.5px #cfcfcf;
     margin-top: 0;    
 }
 #header.red {
@@ -43,6 +56,7 @@ div {
 #content {
     display: block;
     padding: 0px 15px 15px 15px;
+    overflow: scroll;
 }
 #content.red {
     color: #af2319;
@@ -80,18 +94,18 @@ div {
     </table>    
     
 </div>
-<div><h3 id="header" class="red">Hello</h3><p id="content" class="red">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<div id="card"><h3 id="header" class="red">Hello</h3><p id="content" class="red">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 <img src="bar_2add1.png" width="100%"> 
 </div>
 <div></div>
-<div><h3 id="header" class="green">Scrolabble</h3><p id="content" class="green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan urna posuere, pharetra odio at, cursus orci. Phasellus facilisis dignissim eros at rhoncus. Suspendisse potenti. Aenean sit amet dignissim nibh, eget vehicula elit. Curabitur eu tellus at neque fringilla lobortis a non nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas faucibus neque quam. Sed porttitor rutrum nulla id sodales.
+<div><h3 id="header" class="green">Scrolabble</h3><div class="wrapper"><p id="content" class="green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan urna posuere, pharetra odio at, cursus orci. Phasellus facilisis dignissim eros at rhoncus. Suspendisse potenti. Aenean sit amet dignissim nibh, eget vehicula elit. Curabitur eu tellus at neque fringilla lobortis a non nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas faucibus neque quam. Sed porttitor rutrum nulla id sodales.
 <br><br>
 Phasellus sed leo ullamcorper, blandit felis sit amet, mattis arcu. Phasellus vulputate quis nibh et tristique. Pellentesque a nisl commodo, hendrerit ipsum in, eleifend orci. Nullam tempor posuere justo et pharetra. Pellentesque interdum porta blandit. Ut accumsan varius ipsum sed blandit. Sed non rutrum ex. Duis faucibus tortor nisi, eget sagittis tortor venenatis eu. Nam pretium blandit faucibus. Maecenas nec ex massa. Ut at tristique nibh, vel mollis urna. Vestibulum convallis sollicitudin quam, at dapibus nisi tristique sit amet.
 <br><br>
 Nullam malesuada vestibulum metus, in sagittis nunc ornare vel. Aliquam erat volutpat. Nullam est erat, euismod eu volutpat eget, sagittis nec diam. Vivamus vitae mauris in mi pretium pulvinar a at justo. Donec facilisis vulputate iaculis. Duis dignissim massa vitae ex rhoncus, vitae pharetra nisl pulvinar. Duis cursus, nisi eu auctor tempor, dui quam semper risus, blandit aliquam velit diam quis sem. Sed pretium venenatis ex a aliquam. Quisque auctor mi eu diam vulputate ornare. Integer ac ex felis. Nunc ut consequat diam.
 </p>
 <img src="bar_2add1.png" width="100%">
-</div>
+</div></div>
 <div></div>  
 <div><h3 id="header" class="blue">Money</h3><p id="content" class="blue">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 <img src="bar_2add1.png" width="100%">
